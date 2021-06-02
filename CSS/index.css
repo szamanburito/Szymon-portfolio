@@ -21,12 +21,13 @@ html {
     background-color: black;
     margin-left: -8px;
     margin-right: -8px;
-    margin-top: -8px;
+    margin-top: -2px;
+    margin-bottom: 4px;
 }
 
 .mid {
     margin: -8px;
-    min-height: 684px;
+    min-height: 1000px;
     background-attachment: fixed;
     position: center center;
     background-repeat: no-repeat;
@@ -35,23 +36,22 @@ html {
 
 .nav {
     float: right;
-    width: 400px;
-    min-height: 684px;
+    width: 300px;
+    min-height: 450px;
+    margin-top: 140px;
 }
 
 .words {
     font-family: 'Poppins', sans-serif;
     font-size: 2em;
-    color: whitesmoke;
-    float: right;
+    color: black;
+    margin-bottom: 70px;
 }
 
-#eye {
-    max-height: 20px;
-    display: inline;
-    float: right;
-    margin-right: 50px;
-    margin-left: 30px;
-    color: white;
-    padding-top: 7px;
+.scndcontainer {
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+    height: 860px;
+    width: 1590px;
 }

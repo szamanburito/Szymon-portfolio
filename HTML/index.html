@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../CSS/index.css" />
+    <link rel="stylesheet" href="../CSS/button" />
     <link rel="stylesheet" href="../Symbols/css/eye.css" />
-    <script src="../JAVASCRIPT/index.js"></script>
     <title>SZYMON KAWALER</title>
 </head>
 
@@ -19,24 +19,48 @@
         </div>
     </div>
 
-    <div class="mid" style="background-color: aqua;">
-        <div class="nav" style="background-color: burlywood;">
+    <div class="mid" style="background-color: green;">
+        <div id="containerHOME" class="scndcontainer" style="background-color: wheat;">
+            <p>HOME</p>
+        </div>
+        <div id="containerABOUT" class="scndcontainer" style="background-color: cyan;">
+            <p>about</p>
+        </div>
+        <div id="containerMUSIC" class="scndcontainer" style="background-color: red;">
+            <p>music</p>
+        </div>
+        <div id="containerWEBSITES" class="scndcontainer" style="background-color: orange;">
+            <p>websites</p>
+        </div>
+        <div id="containerPROJECTS" class="scndcontainer" style="background-color: grey;">
+            <p>projects</p>
+        </div>
+        <div id="containerCONTACT" class="scndcontainer" style="background-color: purple;">
+            <p>contact</p>
+        </div>
 
-            <div class="navigation" style="background-color: blue;">
-                <p class="words">ABOUT ME <img id="eye" src="../Photo/eye-white.png" /> </p>
-            </div>
-            <div class="navigation" style="background-color: blue;">
-                <p class="words">MUSIC <img id="eye" src="../Photo/eye-white.png" /> </p>
-            </div>
-            <div class="navigation" style="background-color: blue;">
-                <p class="words">WEBSITES <img id="eye" src="../Photo/eye-white.png" /> </p>
-            </div>
-            <div class="navigation" style="background-color: blue;">
-                <p class="words">PROJECTS <img id="eye" src="../Photo/eye-white.png" /> </p>
-            </div>
-            <div class="navigation" style="background-color: blue;">
-                <p class="words">CONTACT <img id="eye" src="../Photo/eye-white.png" /> </p>
-            </div>
+        <div class="nav">
+            <center>
+                <div class="navigation">
+                    <button class="words" id="btnHOME">HOME</button>
+                </div>
+                <div class="navigation">
+                    <button class="words" id="btnABOUT">ABOUT ME</button>
+                </div>
+                <div class="navigation">
+                    <button class="words" id="btnMUSIC">MUSIC</button>
+                </div>
+                <div class="navigation">
+                    <button class="words" id="btnWEBSITES">WEBSITES</button>
+                </div>
+                <div class="navigation">
+                    <button class="words" id="btnPROJECTS">PROJECTS</button>
+                </div>
+                <div class="navigation">
+                    <button class="words" id="btnCONTACT">CONTACT</button>
+                </div>
+                <script src="../JAVASCRIPT/navigation.js"></script>
+            </center>
         </div>
     </div>
 
