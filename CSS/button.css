@@ -11,3 +11,11 @@ button:hover {
     border: 0px solid transparent;
     text-shadow: 0px 0px 0px transparent;
 }
+
+.words {
+    color: #fff;
+}
+
+.words:hover {
+    color: rgb(167, 167, 167);
+}

@@ -3,10 +3,14 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="../CSS/index.css" />
-    <link rel="stylesheet" href="../CSS/button" />
+    <link rel="stylesheet" href="../CSS/main.css" />
+    <link rel="stylesheet" href="../CSS/scrollbar.css" />
+    <link rel="stylesheet" href="../CSS/button.css" />
     <link rel="stylesheet" href="../Symbols/css/eye.css" />
     <title>SZYMON KAWALER</title>
+    <!-- 3D Object -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <!-- 3D Object -->
 </head>
 
 <body id="backgroundimg">
@@ -19,9 +23,16 @@
         </div>
     </div>
 
-    <div class="mid" style="background-color: green;">
-        <div id="containerHOME" class="scndcontainer" style="background-color: wheat;">
-            <p>HOME</p>
+    <div class="mid">
+        <div id="containerHOME" class="scndcontainer">
+
+            <div id="OSSSCO">
+                <model-viewer src="../3D/logo.glb" alt="A 3D model of my logo" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls>
+                </model-viewer>
+            </div>
+
+            >
+
         </div>
         <div id="containerABOUT" class="scndcontainer" style="background-color: cyan;">
             <p>about</p>

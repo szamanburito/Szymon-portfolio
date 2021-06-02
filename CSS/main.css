@@ -54,4 +54,28 @@ html {
     float: left;
     height: 860px;
     width: 1590px;
+    overflow-y: auto;
+    direction: rtl;
+}
+
+#OSSSCO {
+    height: 200px;
+}
+
+model-viewer {
+    height: 930px;
+    width: 1590px;
+    margin-top: -70px;
+}
+
+.Szymon {
+    height: 45px;
+    width: 1000px;
+    position: absolute;
+    bottom: -20px;
+    right: 300px;
+    left: 300px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
 }
