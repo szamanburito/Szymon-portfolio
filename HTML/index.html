@@ -3,11 +3,10 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.00, maximum-scale=2.00, minimum-scale=1.00" />
     <link rel="stylesheet" href="../CSS/main.css" />
     <link rel="stylesheet" href="../CSS/scrollbar.css" />
     <link rel="stylesheet" href="../CSS/button.css" />
-    <link rel="stylesheet" href="../Symbols/css/eye.css" />
     <title>SZYMON KAWALER</title>
     <!-- 3D Object -->
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
@@ -16,79 +15,83 @@
 
 <body id="backgroundimg">
     <div class="fullscreen-bg">
-        <center>
-            <video playsinline autoplay muted loop class="fullscreen-bg__video">
+        <video playsinline autoplay muted loop class="fullscreen-bg__video">
         <source src="../Photo/background.mp4" type="video/mp4">
       </video>
-        </center>
+
     </div>
 
 
     <div id="container">
         <div class="rectangle">
-            <center>
-                <img id="logo" src="../Photo/lOGO.png" />
-            </center>
+            <img id="logo" src="../Photo/4x/white-swlr.png" />
+
+            <span class="navigation">
+                <button class="words" id="btnCONTACT">CONTACT</button>
+            </span>
+            <span class="navigation">
+                        <button class="words" id="btnABOUT">ABOUT ME</button>
+                    </span>
+            <span class="navigation">
+                        <button class="words" id="btnMUSIC">MUSIC</button>
+                    </span>
+            <span class="navigation">
+                        <button class="words" id="btnWEBSITES">WEBSITES</button>
+                    </span>
+            <span class="navigation">
+                        <button class="words" id="btnPROJECTS">PROJECTS</button>
+                    </span>
+            <span class="navigation">
+                        <button class="words" id="btnHOME">HOME</button>
+                    </span>
+
         </div>
     </div>
 
-    <div id="containerHOME" style="background-color: blanchedalmond;" class="scndcontainer">
-        <!--
-            <model-viewer src="../3D/logo.glb" alt="A 3D model of my logo" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls>
-            </model-viewer> -->
-    </div>
 
-    <div id="containerABOUT" class="scndcontainer" style="background-color: cyan;">
-        <p>about</p>
-    </div>
-    <div id="containerMUSIC" class="scndcontainer" style="background-color: red;">
-        <p>music</p>
-    </div>
-    <div id="containerWEBSITES" class="scndcontainer" style="background-color: orange;">
-        <p>websites</p>
-    </div>
-    <div id="containerPROJECTS" class="scndcontainer" style="background-color: grey;">
-        <p>projects</p>
-    </div>
-    <div id="containerCONTACT" class="scndcontainer" style="background-color: purple;">
-        <p>contact</p>
-    </div>
 
-    <div class="nav" style="background-color: blueviolet;">
+
+    <span id="containerHOME" class="homecontainer">
         <center>
-            <div class="navigation">
-                <button class="words" id="btnHOME">HOME</button>
-            </div>
-            <div class="navigation">
-                <button class="words" id="btnABOUT">ABOUT ME</button>
-            </div>
-            <div class="navigation">
-                <button class="words" id="btnMUSIC">MUSIC</button>
-            </div>
-            <div class="navigation">
-                <button class="words" id="btnWEBSITES">WEBSITES</button>
-            </div>
-            <div class="navigation">
-                <button class="words" id="btnPROJECTS">PROJECTS</button>
-            </div>
-            <div class="navigation">
-                <button class="words" id="btnCONTACT">CONTACT</button>
-            </div>
-            <script src="../JAVASCRIPT/navigation.js"></script>
+        <model-viewer src="../3D/logo.glb" alt="A 3D model of my logo" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" disable-zoom auto-rotate camera-controls></model-viewer>
         </center>
-    </div>
-
-    </div>
+    </span>
 
 
 
 
 
+    <center>
+        <div id="containerABOUT" class="scndcontainer" style="background-color: cyan;">
+            <p>about</p>
+            <div class="space-one"></div>
+            <p>about</p>
+            <div class="space-one"></div>
+            <p>about</p>
+            <div class="space-one"></div>
+            <p>about</p>
+            <div class="space-one"></div>
+        </div>
+        <div id="containerMUSIC" class="scndcontainer" style="background-color: red;">
+            <p>music</p>
+        </div>
+        <div id="containerWEBSITES" class="scndcontainer" style="background-color: orange;">
+            <p>websites</p>
+        </div>
+        <div id="containerPROJECTS" class="scndcontainer" style="background-color: grey;">
+            <p>projects</p>
+        </div>
+        <div id="containerCONTACT" class="scndcontainer" style="background-color: purple;">
+            <p>contact</p>
+        </div>
+    </center>
 
-    </div>
+    <script src="../JAVASCRIPT/navigation.js"></script>
+
 
 
 
 </body>
+<script src="../JAVASCRIPT/strap.js"></script>
 
 </html>
