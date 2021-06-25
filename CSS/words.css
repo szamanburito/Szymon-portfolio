@@ -1,0 +1,16 @@
+.giant-word {
+    color: #ffffff;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: web 3s infinite;
+}
+
+@keyframes web {
+    50% {
+        color: brown;
+    }
+}
+
+#containerWEBSITES p {
+    margin-top: 15%;
+}

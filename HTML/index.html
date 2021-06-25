@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../CSS/main.css" />
     <link rel="stylesheet" href="../CSS/scrollbar.css" />
     <link rel="stylesheet" href="../CSS/button.css" />
+    <link rel="stylesheet" href="../CSS/words.css" />
     <title>SZYMON KAWALER</title>
     <!-- 3D Object -->
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
@@ -24,7 +25,7 @@
 
     <div id="container">
         <div class="rectangle">
-            <img id="logo" src="../Photo/4x/white-swlr.png" />
+            <img id="logo" src="../Photo/4x/white-logo.png" />
 
             <span class="navigation">
                 <button class="words" id="btnCONTACT">CONTACT</button>
@@ -50,37 +51,44 @@
 
 
 
-
+    <!--HOME -->
     <span id="containerHOME" class="homecontainer">
         <center>
         <model-viewer src="../3D/logo.glb" alt="A 3D model of my logo" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" disable-zoom auto-rotate camera-controls></model-viewer>
         </center>
     </span>
 
-
-
-
-
     <center>
+
+        <!--ABOUT -->
         <div id="containerABOUT" class="scndcontainer" style="background-color: cyan;">
             <p>about</p>
-            <div class="space-one"></div>
-            <p>about</p>
-            <div class="space-one"></div>
-            <p>about</p>
-            <div class="space-one"></div>
-            <p>about</p>
-            <div class="space-one"></div>
         </div>
-        <div id="containerMUSIC" class="scndcontainer" style="background-color: red;">
-            <p>music</p>
+
+        <!--MUSIC -->
+        <div id="containerMUSIC" class="scndcontainer">
+            <article>
+                <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/sfkol_gWzBc" title="ABSTRACT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/fg9Dd6g6B5Q" title="LoFi guitar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/gQnMpQW5Lgo" title="Trap Beat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/8qnapea4aGM" title="My first song" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/8fk9wybKqqs" title="Trap Beat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/HftyH6PIaZU" title="Come To Poland" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
         </div>
-        <div id="containerWEBSITES" class="scndcontainer" style="background-color: orange;">
-            <p>websites</p>
+
+        <!--WEBSITES -->
+        <div id="containerWEBSITES" class="scndcontainer">
+            <p class="giant-word">AS OF TODAY I DONT HAVE ANY OTHER WEBSITE</p>
+            <img class="saddo" src="https://www.seekpng.com/png/full/11-114041_sad-face-emoji-clipart-android-sad-face-emoji.png" />
         </div>
+
+        <!--PROJECTS -->
         <div id="containerPROJECTS" class="scndcontainer" style="background-color: grey;">
             <p>projects</p>
         </div>
+
+        <!--CONTACT -->
         <div id="containerCONTACT" class="scndcontainer" style="background-color: purple;">
             <p>contact</p>
         </div>

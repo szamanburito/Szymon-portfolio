@@ -52,15 +52,26 @@ model-viewer {
 }
 
 model-viewer {
-    min-height: 43em;
+    min-height: 35em;
 }
 
 .scndcontainer {
-    height: 43em;
+    height: 35em;
     overflow-y: visible;
     overflow-y: scroll;
 }
 
 .space-one {
     height: 400px;
+}
+
+.saddo {
+    height: 100px;
+    width: 100px;
+}
+
+.YouTube-music {
+    margin: 30px;
+    height: 250px;
+    width: 400px;
 }
