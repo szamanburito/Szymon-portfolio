@@ -5,6 +5,7 @@ var music = document.getElementById('containerMUSIC');
 var websites = document.getElementById('containerWEBSITES');
 var projects = document.getElementById('containerPROJECTS');
 var contact = document.getElementById('containerCONTACT');
+var photo = document.getElementById('aboutphoto');
 
 // buttons //
 var bhome = document.getElementById('btnHOME');
@@ -17,6 +18,7 @@ var bcontact = document.getElementById('btnCONTACT');
 // display : none //
 function none() {
     about.style.display = "none";
+    photo.style.display = "none";
     music.style.display = "none";
     websites.style.display = "none";
     projects.style.display = "none";
@@ -31,6 +33,7 @@ babout.addEventListener('click', function() {
         if (about.style.display == "none") {
             //
             about.style.display = "block";
+            photo.style.display = "block";
             music.style.display = "none";
             websites.style.display = "none";
             projects.style.display = "none";
@@ -43,6 +46,7 @@ bmusic.addEventListener('click', function() {
         if (music.style.display == "none") {
             //
             about.style.display = "none";
+            photo.style.display = "none";
             music.style.display = "block";
             websites.style.display = "none";
             projects.style.display = "none";
@@ -55,6 +59,7 @@ bwebsites.addEventListener('click', function() {
         if (websites.style.display == "none") {
             //
             about.style.display = "none";
+            photo.style.display = "none";
             music.style.display = "none";
             websites.style.display = "block";
             projects.style.display = "none";
@@ -67,6 +72,7 @@ bprojects.addEventListener('click', function() {
         if (projects.style.display == "none") {
             //
             about.style.display = "none";
+            photo.style.display = "none";
             music.style.display = "none";
             websites.style.display = "none";
             projects.style.display = "block";
@@ -79,6 +85,7 @@ bcontact.addEventListener('click', function() {
     if (contact.style.display == "none") {
         //
         about.style.display = "none";
+        photo.style.display = "none";
         music.style.display = "none";
         websites.style.display = "none";
         projects.style.display = "none";
