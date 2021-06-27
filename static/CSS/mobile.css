@@ -25,6 +25,19 @@
     transition: all 1s;
 }
 
+#blacklinetwo {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 7px;
+    height: 60px;
+    width: 100%;
+    transition: all 1s;
+}
+
 #mobile-logo {
     z-index: 2;
     margin-top: 10px;
@@ -50,12 +63,13 @@
 }
 
 #mobile-menu {
+    overflow-y: scroll;
     z-index: 1;
     background-color: brown;
     position: fixed;
     top: 0;
     width: 100%;
-    height: 1000px;
+    height: 100%;
     margin-top: 0px;
     transition: all 1s;
 }
