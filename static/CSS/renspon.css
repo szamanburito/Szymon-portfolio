@@ -12,6 +12,9 @@
         margin-top: 5%;
         width: 80%;
     }
+    .aboutcontainer {
+        margin-top: 9%;
+    }
 }
 
 @media only screen and (max-width: 1446px) {
@@ -33,86 +36,19 @@
     }
 }
 
-@media only screen and (min-width: 1064px) {
-    #containerPROJECTS {
-        height: auto;
-    }
-    #containerWEBSITES,
-    #containerCONTACT {
-        height: auto;
-    }
-}
-
-@media only screen and (max-height: 500px) {
-    .words {
-        margin-bottom: -15px;
-    }
-}
-
-@media only screen and (max-width: 1064px) {
-    .words {
-        margin-top: 50px;
-    }
-    #containerPROJECTS {
-        margin: 0;
-        margin-top: -120px;
-    }
-    .navigate {
-        float: right;
-        max-width: 150px;
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-    }
-    .homecontainer {
-        max-width: 90%;
-    }
-    #containerPROJECTS {
-        margin-top: -120px;
-        margin-left: -10%;
-        width: 80%;
-        height: auto;
-    }
-    #containerWEBSITES {
-        margin-top: 50px;
-        margin-left: -15%;
-        width: 60%;
-        height: auto;
-    }
-    #aboutphoto {
-        width: 50%;
-        height: 50%;
-        float: left;
-        margin-left: 15%;
-    }
-    .aboutcontainer {
-        float: left;
-        margin-left: 15%;
-    }
-    #containerMUSIC {
-        margin-left: -150px;
-        width: 90%;
-        height: auto;
-    }
-    .YouTube-music {
-        display: inline-block;
-        width: 320px;
-        height: 200px;
-    }
-    #containerCONTACT {
-        height: auto;
-        margin-left: -100px;
-    }
-}
-
 @media only screen and (min-width: 1065px) {
     .mobile {
+        display: none;
+    }
+    .clear-v5 {
         display: none;
     }
 }
 
 @media only screen and (max-width: 1064px) {
+    .clear-v5 {
+        display: block;
+    }
     #logo {
         display: none;
     }
@@ -150,16 +86,14 @@
         display: none;
     }
     .projects {
-        margin: 0;
-        margin-top: 50px;
-        margin-left: -10px;
+        margin: 10px;
+        margin-top: 40px;
         float: none;
         max-height: 200px;
         width: auto;
     }
     .desc {
         float: none;
-        margin-left: 5%;
     }
     #containerPROJECTS {
         width: 100%;

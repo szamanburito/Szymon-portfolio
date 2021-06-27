@@ -74,6 +74,10 @@
     transition: all 1s;
 }
 
+#btnCONTACTm {
+    margin-bottom: 50px;
+}
+
 .mobile-words {
     display: block;
     color: #fff;

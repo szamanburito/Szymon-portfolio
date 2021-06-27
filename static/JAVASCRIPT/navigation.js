@@ -267,7 +267,7 @@ bhome.addEventListener('click', function() {
     none();
 })
 bhomem.addEventListener('click', function() {
-    if (home.style.display == "block") {
+    if (home.style.display == "none") {
 
     } else {
         menu.style.right = "-100%";
