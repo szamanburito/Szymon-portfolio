@@ -1,6 +1,12 @@
 ::-webkit-scrollbar {
-    width: 11px;
+    width: 1px;
     height: 11px;
+}
+
+@media only screen and (max-width: 600px) {
+     ::-webkit-scrollbar {
+        width: 0px;
+    }
 }
 
  ::-webkit-scrollbar-thumb {

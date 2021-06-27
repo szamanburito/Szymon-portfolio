@@ -1,0 +1,95 @@
+.mobile-navbar {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+    height: 60px;
+    width: auto;
+}
+
+#blackline {
+    z-index: -1;
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 7px;
+    height: 60px;
+    width: auto;
+    transition: all 1s;
+}
+
+#mobile-logo {
+    z-index: 2;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 3em;
+}
+
+#mobile-line {
+    z-index: 2;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+    height: 35px;
+    width: 40px;
+}
+
+.line1,
+.line2,
+.line3 {
+    width: auto;
+    height: 4px;
+    margin-bottom: 10px;
+}
+
+#mobile-menu {
+    z-index: 1;
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 1000px;
+    margin-top: 0px;
+    transition: all 1s;
+}
+
+.mobile-words {
+    display: block;
+    color: #fff;
+    font-size: 2em;
+    margin-top: 50px;
+    transition-duration: 1s;
+}
+
+.mobile-words:hover {
+    color: rgb(100, 100, 100);
+    cursor: -webkit-grab;
+}
+
+.mobile-words:active {
+    cursor: -webkit-grabbing;
+}
+
+.mobile-words:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    background: green;
+    transition: width 0.5s ease 0s, left 0.5s ease 0s;
+    width: 0;
+}
+
+.mobile-words:hover:after {
+    width: 100%;
+    left: 0;
+}

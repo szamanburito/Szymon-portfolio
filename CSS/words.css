@@ -11,10 +11,6 @@
     }
 }
 
-#containerWEBSITES p {
-    margin-top: 15%;
-}
-
 .desc {
     color: whitesmoke;
     font-size: 1.5em;
@@ -38,7 +34,7 @@
     color: #fff;
     font-size: 1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    filter: brightness(10%);
+    filter: brightness(20%);
     animation: dragme 5s infinite;
 }
 
@@ -50,16 +46,24 @@
 
 h1 {
     color: white;
-    font-size: 2em;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 60%;
+}
+
+.passion {
+    filter: blur(0.6px);
+}
+
+.underlajn {
+    text-decoration: underline;
 }
 
 .aboutv1 {
     color: white;
     font-size: 1.2em;
     font-family: 'Open Sans', sans-serif;
-    width: 65%;
+    width: 80%;
 }
 
 .aboutv2 {
@@ -71,19 +75,52 @@ h1 {
 }
 
 .aboutv3 {
+    animation: colorfest 10s infinite;
+}
+
+.aboutcssw {
+    animation: colorcss 10s infinite;
+}
+
+.aboutjsw {
+    animation: colorjs 10s infinite;
+}
+
+.abouthtmlw {
+    animation: colorhtml 10s infinite;
+}
+
+.aboutv3,
+.abouthtmlw,
+.aboutcssw,
+.aboutjsw {
     margin-bottom: -10px;
     font-size: 1.1em;
     font-family: 'Open Sans', sans-serif;
     width: 80%;
     color: white;
-    animation: colorfest 10s infinite;
 }
 
 @keyframes colorfest {
     50% {
-        color: gray;
-    }
-    25% {
         color: brown;
+    }
+}
+
+@keyframes colorcss {
+    50% {
+        color: rgb(65, 182, 255);
+    }
+}
+
+@keyframes colorhtml {
+    50% {
+        color: rgb(255, 164, 45);
+    }
+}
+
+@keyframes colorjs {
+    50% {
+        color: rgb(255, 239, 98);
     }
 }
