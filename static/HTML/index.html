@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../CSS/main.css" />
-    <link rel="stylesheet" href="../CSS/renspon.css" />
-    <link rel="stylesheet" href="../CSS/scrollbar.css" />
-    <link rel="stylesheet" href="../CSS/button.css" />
-    <link rel="stylesheet" href="../CSS/words.css" />
-    <link rel="stylesheet" href="../CSS/mobile.css" />
+    <link rel="stylesheet" href="{{ url_for('static', path='CSS/main.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', path='CSS/renspon.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', path='CSS/scrollbar.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', path='CSS/button.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', path='CSS/words.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', path='CSS/mobile.css') }}" />
     <title>SZYMON KAWALER</title>
     <!-- 3D Object -->
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
@@ -19,7 +19,7 @@
 <body id="backgroundimg">
     <div class="fullscreen-bg">
         <video playsinline autoplay muted loop class="fullscreen-bg__video">
-        <source src="../Photo/background.mp4" type="video/mp4">
+        <source src="{{ url_for('static', path='Photo/background.mp4') }}" type="video/mp4">
       </video>
 
     </div>
@@ -34,7 +34,7 @@
             <div class="mobile-navbar">
                 <div id="blackline" style="background-color: black;"></div>
 
-                <img id="mobile-logo" src="../Photo/4x/white-logo.png" />
+                <img id="mobile-logo" src="{{ url_for('static', path='Photo/4x/white-logo.png') }}" />
                 <button onclick="lefto()" id="mobile-line">
                     <div class=line1 style="background-color: cornsilk;"></div>
                     <div class=line2 style="background-color: cornsilk;"></div>
@@ -56,7 +56,7 @@
 
         <!--COMPUTER-->
         <div class="rectangle">
-            <img id="logo" src="../Photo/4x/white-logo.png" />
+            <img id="logo" src="{{ url_for('static', path='Photo/4x/white-logo.png') }}" />
             <span class="navigate">
                 <span class="navigation">
                 <button class="words" id="btnCONTACT">CONTACT</button>
@@ -88,14 +88,14 @@
         <center>
             <div class="clear-v3"></div>
             <div class="drag">DRAG ME!</div>
-        <model-viewer src="../3D/logo.glb" alt="A 3D model of my logo" ar-modes="webxr scene-viewer quick-look" environment-image="neutral" disable-zoom auto-rotate camera-controls></model-viewer>
+        <model-viewer src="{{ url_for('static', path='3D/logo.glb') }}" alt="A 3D model of my logo" ar-modes="webxr scene-viewer quick-look" environment-image="neutral" disable-zoom auto-rotate camera-controls></model-viewer>
         </center>
     </span>
 
     <center>
 
         <!--ABOUT -->
-        <img src="../Photo/shamanphoto.jpg" id="aboutphoto">
+        <img src="{{ url_for('static', path='Photo/shamanphoto.jpg') }}" id="aboutphoto">
         <div id="containerABOUT" class="aboutcontainer">
             <div class="clear-v4"></div>
             <h1>Hello! I'm Szymon.</h1>
@@ -141,15 +141,15 @@
             <div class="clear-v1"></div>
             <!--MOISZ-->
             <a href="https://www.behance.net/gallery/122289593/MKVLR-logo-animation" target="_blank">
-                <img title="MKVLR logo animation" class="projects" src="../Photo/moisz.jpg" />
+                <img title="MKVLR logo animation" class="projects" src="{{ url_for('static', path='Photo/moisz.jpg') }}" />
             </a>
             <!--WIMW-->
             <a href="https://www.behance.net/gallery/122291177/WELCOME-IN-MY-WORLD" target="_blank">
-                <img title="Welcome in my world" class="projects" src="../Photo/wimw.jpg" />
+                <img title="Welcome in my world" class="projects" src="{{ url_for('static', path='Photo/wimw.jpg') }}" />
             </a>
             <!--SZIMEK LOGO-->
             <a href="https://www.behance.net/gallery/122288863/Szimek-Szaman-logo-visualisation" target="_blank">
-                <img title="Szimek Szaman logo visualisation" class="projects" src="../Photo/szaman.jpg" />
+                <img title="Szimek Szaman logo visualisation" class="projects" src="{{ url_for('static', path='Photo/szaman.jpg') }}" />
             </a>
             <div class="clear-v4"></div>
             <a href="https://www.instagram.com/o_s_s_s_c_o/" target="_blank">
@@ -188,7 +188,7 @@
                 <div class="clear-v4"></div>
         </div>
     </center>
-    <script src="../JAVASCRIPT/navigation.js "></script>
+    <script src="{{ url_for('static', path='JAVASCRIPT/navigation.js') }} "></script>
 
 
 
