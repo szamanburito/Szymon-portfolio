@@ -90,10 +90,20 @@ h1 {
     animation: colorhtml 10s infinite;
 }
 
+.aboutphp {
+    animation: colorphp 10s infinite;
+}
+
+.aboutjq {
+    animation: colorjq 10s infinite;
+}
+
 .aboutv3,
 .abouthtmlw,
 .aboutcssw,
-.aboutjsw {
+.aboutjsw,
+.aboutphp,
+.aboutjq {
     margin-bottom: -10px;
     font-size: 1.1em;
     font-family: 'Open Sans', sans-serif;
@@ -122,5 +132,17 @@ h1 {
 @keyframes colorjs {
     50% {
         color: rgb(255, 239, 98);
+    }
+}
+
+@keyframes colorphp {
+    50% {
+        color: rgb(124, 95, 255);
+    }
+}
+
+@keyframes colorjq {
+    50% {
+        color: rgb(57, 60, 255);
     }
 }
