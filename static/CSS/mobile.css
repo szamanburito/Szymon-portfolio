@@ -52,6 +52,16 @@
     margin-right: 10px;
     height: 35px;
     width: 40px;
+    transition: all 0.5s;
+}
+
+#mobile-line:hover {
+    filter: brightness(50%);
+    transform: rotate(90deg);
+}
+
+#mobile-line:active {
+    filter: opacity(30%);
 }
 
 .line1,
