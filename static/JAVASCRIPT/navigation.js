@@ -18,6 +18,7 @@ blackline.style.left = '0%';
 blackline.style.right = '0%';
 menu.style.right = '-100%';
 
+
 function lefto() {
 
     if (menu.style.right == '0%') {
