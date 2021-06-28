@@ -40,6 +40,7 @@
 
 #mobile-logo {
     z-index: 2;
+    border-radius: 2em;
     margin-top: 10px;
     margin-left: 10px;
     height: 3em;
