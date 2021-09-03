@@ -40,6 +40,7 @@ var bmusic = document.getElementById('btnMUSIC');
 var bwebsites = document.getElementById('btnWEBSITES');
 var bprojects = document.getElementById('btnPROJECTS');
 var bcontact = document.getElementById('btnCONTACT');
+var blogo = document.getElementById('logo');
 
 var bhomem = document.getElementById('btnHOMEm');
 var baboutm = document.getElementById('btnABOUTm');
@@ -47,6 +48,7 @@ var bmusicm = document.getElementById('btnMUSICm');
 var bwebsitesm = document.getElementById('btnWEBSITESm');
 var bprojectsm = document.getElementById('btnPROJECTSm');
 var bcontactm = document.getElementById('btnCONTACTm');
+var blogom = document.getElementById('mobile-logo');
 
 
 // display : none //
@@ -66,7 +68,7 @@ none();
 babout.addEventListener('click', function() {
     if (about.style.display == "none") {
         //
-        console.log("kupa");
+
         menu.style.right = "-100%";
         blackline.style.left = '0%';
         blackline.style.right = '0%';
@@ -78,13 +80,14 @@ babout.addEventListener('click', function() {
         projects.style.display = "none";
         contact.style.display = "none";
         home.style.display = "none";
+        
 
     }
 })
 baboutm.addEventListener('click', function() {
         if (about.style.display == "none") {
             //
-            console.log("kupa");
+
             menu.style.right = "-100%";
             blackline.style.left = '0%';
             blackline.style.right = '0%';
@@ -268,6 +271,24 @@ bhome.addEventListener('click', function() {
     none();
 })
 bhomem.addEventListener('click', function() {
+    if (home.style.display == "none") {
+
+    } else {
+        menu.style.right = "-100%";
+        blackline.style.left = '0%';
+        blackline.style.right = '0%';
+    }
+
+    none();
+})
+blogo.addEventListener('click', function() {
+    menu.style.right = "-100%";
+    blackline.style.left = '0%';
+    blackline.style.right = '0%';
+
+    none();
+})
+blogom.addEventListener('click', function() {
     if (home.style.display == "none") {
 
     } else {

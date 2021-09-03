@@ -36,7 +36,7 @@
     }
 }
 
-@media only screen and (min-width: 1065px) {
+@media only screen and (min-width: 1192px) {
     .mobile {
         display: none;
     }
@@ -45,7 +45,7 @@
     }
 }
 
-@media only screen and (max-width: 1064px) {
+@media only screen and (max-width: 1191px) {
     .clear-v5 {
         display: block;
     }
