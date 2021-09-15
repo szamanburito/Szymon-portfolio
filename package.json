@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "name": "szymon-portfolio",
+  "version": "1.0.0",
+  "description": "\"Szymon portfolio\"",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szamanburito/Szymon-portfolio.git"
+  },
+  "keywords": [
+    "porftolio",
+    "heroku"
+  ],
+  "author": "szamanburito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szamanburito/Szymon-portfolio/issues"
+  },
+  "homepage": "https://github.com/szamanburito/Szymon-portfolio#readme",
+
+  "engines": {
+    "node": "16.x"
+  }
+}

@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../CSS/main.css" />
-    <link rel="stylesheet" href="../CSS/renspon.css" />
-    <link rel="stylesheet" href="../CSS/scrollbar.css" />
-    <link rel="stylesheet" href="../CSS/button.css" />
-    <link rel="stylesheet" href="../CSS/words.css" />
-    <link rel="stylesheet" href="../CSS/mobile.css" />
+    <link rel="stylesheet" href="/static/CSS/main.css" />
+    <link rel="stylesheet" href="/static/CSS/renspon.css" />
+    <link rel="stylesheet" href="/static/CSS/scrollbar.css" />
+    <link rel="stylesheet" href="/static/CSS/button.css" />
+    <link rel="stylesheet" href="/static/CSS/words.css" />
+    <link rel="stylesheet" href="/static/CSS/mobile.css" />
     <title>SZYMON KAWALER</title>
     <!-- 3D Object -->
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
@@ -19,8 +19,8 @@
 <body id="backgroundimg">
     <div class="fullscreen-bg">
         <video playsinline autoplay muted loop class="fullscreen-bg__video">
-        <source src="../Photo/background.mp4" type="video/mp4">
-      </video>
+            <source src="/static/Photo/background.mp4" type="video/mp4">
+        </video>
     </div>
 
 
@@ -34,7 +34,7 @@
                 <div id="blacklinetwo" style="background-color: brown;"></div>
                 <div id="blackline" style="background-color: black;"></div>
 
-                <img id="mobile-logo" style="margin-top: 16px; margin-left: 20px;" src="../Photo/4x/white-logo.png" />
+                <img id="mobile-logo" style="margin-top: 16px; margin-left: 20px;" src="/static/Photo/4x/white-logo.png" />
                 <button onclick="lefto()" id="mobile-line">
                     <div class=line1 style="background-color: cornsilk;"></div>
                     <div class=line2 style="background-color: cornsilk;"></div>
@@ -56,26 +56,26 @@
 
         <!--COMPUTER-->
         <div class="rectangle">
-            <img id="logo" src="../Photo/4x/white-logo.png" />
+            <img id="logo" src="/static/Photo/4x/white-logo.png" />
             <span class="navigate">
                 <span class="navigation">
-                <button class="words" id="btnCONTACT">CONTACT</button>
-            </span>
-            <span class="navigation">
-                        <button class="words" id="btnABOUT">ABOUT ME</button>
-                    </span>
-            <span class="navigation">
-                        <button class="words" id="btnMUSIC">MUSIC</button>
-                    </span>
-            <span class="navigation">
-                        <button class="words" id="btnWEBSITES">WEBSITES</button>
-                    </span>
-            <span class="navigation">
-                        <button class="words" id="btnPROJECTS">PROJECTS</button>
-                    </span>
-            <span class="navigation">
-                        <button class="words" id="btnHOME">HOME</button>
-                    </span>
+                    <button class="words" id="btnCONTACT">CONTACT</button>
+                </span>
+                <span class="navigation">
+                    <button class="words" id="btnABOUT">ABOUT ME</button>
+                </span>
+                <span class="navigation">
+                    <button class="words" id="btnMUSIC">MUSIC</button>
+                </span>
+                <span class="navigation">
+                    <button class="words" id="btnWEBSITES">WEBSITES</button>
+                </span>
+                <span class="navigation">
+                    <button class="words" id="btnPROJECTS">PROJECTS</button>
+                </span>
+                <span class="navigation">
+                    <button class="words" id="btnHOME">HOME</button>
+                </span>
             </span>
 
         </div>
@@ -84,20 +84,27 @@
 
 
     <!--HOME -->
-    <div id="containerHOME" class="center3D" >
-        <model-viewer src="../3D/logo.glb" alt="A 3D model of my logo" ar-modes="webxr scene-viewer quick-look" environment-image="neutral" disable-zoom auto-rotate camera-controls></model-viewer>
+    <div id="containerHOME" class="center3D">
+        <model-viewer src="/static/3D/logo.glb" alt="A 3D model of my logo" ar-modes="webxr scene-viewer quick-look"
+            environment-image="neutral" disable-zoom auto-rotate camera-controls></model-viewer>
     </div>
 
     <center>
 
         <!--ABOUT -->
-        <img src="../Photo/shamanphoto.jpg" id="aboutphoto">
+        <img src="/static/Photo/shamanphoto.jpg" id="aboutphoto">
         <div id="containerABOUT" class="aboutcontainer">
             <div class="clear-v5"></div>
             <h1>Hello! I'm Szymon.</h1>
-            <p class="aboutv1"> I've always dreamed of doing something that will surprise everyone around. <span class="underlajn">Since 2019</span> I started to be interested in 3D graphics in <span class="aboutv3"> Blender</span>. <span class="underlajn">From December 2020</span>,
+            <p class="aboutv1"> I've always dreamed of doing something that will surprise everyone around. <span
+                    class="underlajn">Since 2019</span> I started to be interested in 3D graphics in <span
+                    class="aboutv3"> Blender</span>. <span class="underlajn">From December 2020</span>,
                 I devote my daily learning to
-                <span class="abouthtmlw">HTML</span>, <span class="aboutjq">JQuery</span>, <span class="aboutphp">React</span>, <span class="aboutcssw">CSS</span> and <span class="aboutjsw">JavaScript</span> in <span class="aboutv3">Adobe Dreamwaver</span>                and <span class="aboutv3">Visual Studio Code</span>. Everything I learn, I learn by myself, <span class="passion">from passion</span>.
+                <span class="abouthtmlw">HTML</span>, <span class="aboutjq">JQuery</span>, <span
+                    class="aboutphp">React</span>, <span class="aboutcssw">CSS</span> and <span
+                    class="aboutjsw">JavaScript</span> in <span class="aboutv3">Adobe Dreamwaver</span> and <span
+                    class="aboutv3">Visual Studio Code</span>. Everything I learn, I learn by myself, <span
+                    class="passion">from passion</span>.
             </p>
             <p class="aboutv2">Additionally, I have some experience in:</p>
             <p class="aboutv3">Adobe Premiere Pro</p>
@@ -112,19 +119,38 @@
 
         <!--MUSIC -->
         <div id="containerMUSIC" class="scndcontainer">
-            <iframe class="YouTube-music" id="abstract" width="560" height="315" src="https://www.youtube.com/embed/sfkol_gWzBc" title="ABSTRACT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/fg9Dd6g6B5Q" title="LoFi guitar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/gQnMpQW5Lgo" title="Trap Beat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/8qnapea4aGM" title="My first song" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/8fk9wybKqqs" title="Trap Beat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/HftyH6PIaZU" title="Come To Poland" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="YouTube-music" id="abstract" width="560" height="315"
+                src="https://www.youtube.com/embed/sfkol_gWzBc" title="ABSTRACT" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/fg9Dd6g6B5Q"
+                title="LoFi guitar" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/gQnMpQW5Lgo"
+                title="Trap Beat" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/8qnapea4aGM"
+                title="My first song" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/8fk9wybKqqs"
+                title="Trap Beat" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe class="YouTube-music" width="560" height="315" src="https://www.youtube.com/embed/HftyH6PIaZU"
+                title="Come To Poland" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
             <div class="clear-v4"></div>
         </div>
 
         <!--WEBSITES -->
         <div id="containerWEBSITES" class="scndcontainer">
             <p class="giant-word">OTHER WEBSITES COMING SOON</p>
-            <img class="saddo" src="https://www.seekpng.com/png/full/11-114041_sad-face-emoji-clipart-android-sad-face-emoji.png" />
+            <img class="saddo"
+                src="https://www.seekpng.com/png/full/11-114041_sad-face-emoji-clipart-android-sad-face-emoji.png" />
         </div>
 
         <!--PROJECTS -->
@@ -135,19 +161,19 @@
             <div class="clear-v1"></div>
             <!--MOISZ-->
             <a href="https://www.behance.net/gallery/122289593/MKVLR-logo-animation" target="_blank">
-                <img title="MKVLR logo animation" class="projects" src="../Photo/moisz.jpg" />
+                <img title="MKVLR logo animation" class="projects" src="/static/Photo/moisz.jpg" />
             </a>
             <!--SZIMEK LOGO-->
             <a href="https://www.behance.net/gallery/122288863/Szimek-Szaman-logo-visualisation" target="_blank">
-                <img title="Szimek Szaman logo visualisation" class="projects" src="../Photo/szaman.jpg" />
+                <img title="Szimek Szaman logo visualisation" class="projects" src="/static/Photo/szaman.jpg" />
             </a>
             <!--WIMW-->
             <a href="https://www.behance.net/gallery/122291177/WELCOME-IN-MY-WORLD" target="_blank">
-                <img title="Welcome in my world" class="projects" src="../Photo/wimw.jpg" />
+                <img title="Welcome in my world" class="projects" src="/static/Photo/wimw.jpg" />
             </a>
             <!--ANOTHER RELIGION-->
             <a href="https://www.behance.net/gallery/127006075/Another-religion" target="_blank">
-                <img title="Another religion" class="projects" src="../Photo/AnotherReligion.png" />
+                <img title="Another religion" class="projects" src="/static/Photo/AnotherReligion.png" />
             </a>
             <div class="clear-v4"></div>
             <a href="https://www.instagram.com/o_s_s_s_c_o/" target="_blank">
@@ -165,27 +191,33 @@
                 <!--OTHER WEBSITES-->
                 <div class="desc "> OTHER WEBSITES </div>
                 <div class="clear-v3 "></div>
-                <a class="websites-about " target="_blank" href="https://www.youtube.com/channel/UCM_ZYRMMJTMI_Br2VLkYFmg/videos ">YouTube</a>
+                <a class="websites-about " target="_blank"
+                    href="https://www.youtube.com/channel/UCM_ZYRMMJTMI_Br2VLkYFmg/videos ">YouTube</a>
                 <div class="clear-v2 "></div>
-                <a class="websites-about " target="_blank" href="https://www.youtube.com/channel/UCAp37JiERb-vTOvTN8e1qIw ">YouTube beats</a>
+                <a class="websites-about " target="_blank"
+                    href="https://www.youtube.com/channel/UCAp37JiERb-vTOvTN8e1qIw ">YouTube beats</a>
                 <div class="clear-v2 "></div>
-                <a class="websites-about " target="_blank" href="https://www.facebook.com/oldshamanofficial ">Facebook</a>
+                <a class="websites-about " target="_blank"
+                    href="https://www.facebook.com/oldshamanofficial ">Facebook</a>
                 <div class="clear-v2 "></div>
                 <a class="websites-about " target="_blank" href="https://soundcloud.com/szimek-szaman ">Soundcloud</a>
                 <div class="clear-v2 "></div>
-                <a class="websites-about " target="_blank" href="https://soundcloud.com/old-shaman ">Soundcloud beats</a>
+                <a class="websites-about " target="_blank" href="https://soundcloud.com/old-shaman ">Soundcloud
+                    beats</a>
                 <div class="space-one "></div>
                 <!--CONTACT-->
                 <div class="desc "> CONTACT </div>
                 <div class="clear-v3 "></div>
-                <a class="websites-about " target="_blank" href="https://www.facebook.com/OSSSCO/?modal=suggested_action&notif_id=1618862832352821&notif_t=page_user_activity&ref=notif ">Facebook</a>
+                <a class="websites-about " target="_blank"
+                    href="https://www.facebook.com/OSSSCO/?modal=suggested_action&notif_id=1618862832352821&notif_t=page_user_activity&ref=notif ">Facebook</a>
                 <div class="clear-v2 "></div>
-                <a id="emailo" title="Text me!" target="_blank" class="websites-about" href="mailto:szamanburito@gmail.com?body=Text me here!&amp;subject=Hello Szymon!">szamanburito@gmail.com</a>
+                <a id="emailo" title="Text me!" target="_blank" class="websites-about"
+                    href="mailto:szamanburito@gmail.com?body=Text me here!&amp;subject=Hello Szymon!">szamanburito@gmail.com</a>
                 <p class="websites-about ">+48 533 919 426</p>
                 <div class="clear-v4"></div>
         </div>
     </center>
-    <script src="../JAVASCRIPT/navigation.js "></script>
+    <script src="/static/JAVASCRIPT/navigation.js "></script>
 
 
 
