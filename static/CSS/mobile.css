@@ -40,9 +40,7 @@
 
 #mobile-logo {
     z-index: 2;
-    margin-top: 10px;
-    margin-left: 10px;
-    height: 3em;
+    height: 2.3em;
     cursor: grab;
 
     transition: 0.5s ease;
