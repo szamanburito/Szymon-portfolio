@@ -106,18 +106,13 @@ model-viewer:active {
     overflow-y: scroll;
 }
 
-.saddo {
-    height: 100px;
-    width: 100px;
-}
-
 .YouTube-music {
     margin: 30px;
     height: 250px;
     width: 400px;
 
     border-radius: 15px;
-    box-shadow: 0px 0px 10px rgb(71, 71, 71)
+    box-shadow: 0px 0px 8px rgb(31, 31, 31);
 }
 
 .websites-about {
@@ -140,27 +135,15 @@ model-viewer:active {
     margin: 20px;
     height: 200px;
     width: 350px;
-    border-radius: 1em;
+    border-radius: 0.5em;
     filter: brightness(100%);
     transition-timing-function: ease-out;
     transition-duration: 0.5s;
 
-    box-shadow: 0px 0px 10px rgb(71, 71, 71);
+    box-shadow: 0px 0px 8px rgb(31, 31, 31);
 }
-
-.projects-thicking {
-    margin: 20px;
-    height: 120px;
-    width: 450px;
-    border-radius: 1em;
-    filter: brightness(100%);
-    transition-timing-function: ease-out;
-    transition-duration: 0.5s;
-}
-
-.projects-thicking:hover,
 .projects:hover {
-    border-radius: 2em;
+    border-radius: 0.8em;
     filter: brightness(70%);
 }
 

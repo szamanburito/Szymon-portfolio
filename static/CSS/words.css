@@ -15,7 +15,13 @@
     color: whitesmoke;
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
+    
     animation: desc 3s infinite;
+    transition: 0.5s ease-out;
+}
+
+.desc:hover {
+    font-size: 1.3em;
 }
 
 @keyframes desc {
@@ -94,16 +100,11 @@ h1 {
     animation: colorphp 10s infinite;
 }
 
-.aboutjq {
-    animation: colorjq 10s infinite;
-}
-
 .aboutv3,
 .abouthtmlw,
 .aboutcssw,
 .aboutjsw,
-.aboutphp,
-.aboutjq {
+.aboutphp {
     margin-bottom: -10px;
     font-size: 1.1em;
     font-family: 'Open Sans', sans-serif;
@@ -137,12 +138,6 @@ h1 {
 
 @keyframes colorphp {
     50% {
-        color: rgb(124, 95, 255);
-    }
-}
-
-@keyframes colorjq {
-    50% {
-        color: rgb(57, 60, 255);
+        color: rgb(0, 177, 44);
     }
 }
