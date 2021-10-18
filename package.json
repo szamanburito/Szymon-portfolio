@@ -7,7 +7,6 @@
   "version": "1.0.0",
   "description": "\"Szymon portfolio\"",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,7 +25,6 @@
     "url": "https://github.com/szamanburito/Szymon-portfolio/issues"
   },
   "homepage": "https://github.com/szamanburito/Szymon-portfolio#readme",
-
   "engines": {
     "node": "16.x"
   }
